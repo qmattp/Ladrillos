@@ -2,8 +2,8 @@ import pygame
 from pygame.locals import *
 
 pygame.init()
-screen= pygame.display.set_mode([720,720])
-fondodepantalla= pygame.image.load('./fondo.png').convert()
+screen= pygame.display.set_mode([1280,720])
+fondodepantalla= pygame.image.load('./pixel.jpg').convert()
 pygame.display.set_caption("Rompe Ladrillos")
 pygame.mixer.music.load("./8bit.wav")
 pygame.mixer.music.play()
